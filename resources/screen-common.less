@@ -116,7 +116,7 @@ body {
     top: 0;
     margin: 0;
     padding: 0;
-    right: 1.5em;
+    right: 0em;
     width: 2.5em;
     height: 2.5em;
     .icon;
@@ -769,4 +769,14 @@ body :not(:checked) > .toctogglespan:after {
 #p-more h3,
 #p-search h3 {
     .hidden;
+}
+
+a.external {
+    color: @green-bright;
+    transition: 0.1s;
+
+    &:hover {
+        color: @green;
+        border-bottom: 1px solid @green-bright;
+    }
 }

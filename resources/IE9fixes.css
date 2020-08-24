@@ -1,16 +1,17 @@
 /* Basic support for desktop-small and -mid because IE9 doesn't do flexbox */
 /* Mobile/desktop-full would need a bit more, but nobody cares */
 #p-search {
-	margin-left: 14em;
-	margin-right: 16em;
+    margin-left: 14em;
+    margin-right: 16em;
 }
 
 #p-logo-text {
-	width: 14em;
-	float: left;
+    width: 14em;
+    float: left;
+    text-transform: lowercase;
 }
 
 #user-tools {
-	width: 16em;
-	float: right;
+    width: 16em;
+    float: right;
 }
