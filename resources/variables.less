@@ -1,6 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "mediawiki.mixins";
 @import "themes/wikimedia.less"; // default theme
+
+@font-face {
+    font-family: 'Inter';
+    src: url('static/Inter-Black-slnt=0.ttf') format('truetype'),
+        url('static/Inter-Bold-slnt=0.ttf') format('truetype'),
+        url('static/Inter-ExtraBold-slnt=0.ttf') format('truetype'),
+        url('static/Inter-ExtraLight-slnt=0.ttf') format('truetype'),
+        url('static/Inter-Light-slnt=0.ttf') format('truetype'),
+        url('static/Inter-Medium-slnt=0.ttf') format('truetype'),
+        url('static/Inter-Regular-slnt=0.ttf') format('truetype'),
+        url('static/Inter-SemiBold-slnt=0.ttf') format('truetype'),
+        url('static/Inter-Thin-slnt=0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 // .import-themes(); // might be how we apply any selected theme(s); not implemented
 
 // Should really be part of the theme, but currently too much alignment/positioning
