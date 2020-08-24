@@ -282,6 +282,10 @@ body {
 
 /* Misc */
 
+#p-logo-text {
+    text-transform: lowercase !important;
+}
+
 .headerSort {
     background: rgba(0, 0, 0, 0.2) !important;
 }
@@ -772,11 +776,11 @@ body :not(:checked) > .toctogglespan:after {
 }
 
 a.external {
-    color: @green-bright;
-    transition: 0.1s;
+    color: @green !important;
+    transition: 0.1s !important;
 
     &:hover {
-        color: @green;
+        color: @green-bright;
         border-bottom: 1px solid @green-bright;
     }
 }
