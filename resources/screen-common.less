@@ -209,13 +209,16 @@ body {
 .tools-inline li {
     margin: 0.25em 0 1em;
     border-bottom: solid 3px transparent;
+    transition: 0.1s;
 
     &:hover {
-        border-bottom-color: rgb(43, 43, 46);
+        border: 0px;
     }
 
     &.selected {
-        border-bottom-color: rgb(70, 160, 190);
+        color: rgba(255, 255, 255, 0.75);
+        font-weight: 800;
+        border: 0px;
 
         a {
             color: rgb(206, 206, 207);
